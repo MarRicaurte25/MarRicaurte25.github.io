@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/Resource/fondo.png");
+    background-size: cover;
+    background-position: center;
+    color: #be0ece;
+    font-family: Baskerville, serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 3, 213);
+    width: 80%; 
+    max-width: 800px; 
+    margin: 20px auto;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 3, 213);
+}
+
+.card-header {
+    background-color: #be0ece;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #be0ece;
+    font-family: Baskerville, serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c0159b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3c0352;
+}
+
+#show-password {
+    background-color: #6f42c1;
+    border: none;
+    cursor: pointer;
+}
+
+#show-password:hover {
+    background-color: #4a2a84;
+}
+
+#exitbtn {
+    background-color: #dc3545;
+}
+
+#exitbtn:hover {
+    background-color: #a71d2a;
+}
+
+.alert {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}

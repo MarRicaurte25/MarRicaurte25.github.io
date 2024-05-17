@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("/Resource/fondo.png");
+    background-size: cover;
+    background-position: center;
+    color: #be0ece;
+    font-family: Baskerville, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 3, 213);
+    width: 90%;
+    max-width: 1200px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-custom th, 
+.table-custom td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table-custom th {
+    background-color: #c0159b; 
+    color: white;
+}
+
+.table-custom tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-custom tbody tr:hover {
+    background-color: #ddd;
+}
+
+.btn-primary {
+    background-color: #c0159b; 
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #3c0352; 
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 3, 213);
+}
+
+.modal-header {
+    background-color: #c0159b; 
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-close {
+    color: #fff;
+}
+
+.form-label {
+    color: #000;
+}
+
+#togglePassword {
+    background-color: #c0159b; 
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #ff0000; 
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000; 
+}

@@ -1,0 +1,112 @@
+/* Contenedor principal para todos los estilos */
+.container {
+    background-color: #ffffff; /* Blanco */
+    color: #000000; /* Letra negra */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Reset de estilos */
+.container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/Resource/fondo.png');
+    background-repeat: no-repeat;
+    background-color: #8a2be2;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.main-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #b83b5e; /* Morado oscuro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los encabezados */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Blanco */
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ffffff; /* Blanco */
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea,
+input[type="email"] { /* Añadido para incluir el campo de correo electrónico */
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff; /* Blanco */
+    border-radius: 3px;
+}
+
+/* Estilo para los botones */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-login,
+.button-singup,
+.button-google,
+#show-password {
+    background-color: #8a2be2; /* Morado medio */
+    color: #ffffff; /* Blanco */
+}
+
+.button-singup {
+    background-color: #b83b5e; /* Morado oscuro */
+}
+
+.button-google {
+    background-color: #6a1b9a; /* Morado oscuro */
+}
+
+/* Estilo para el botón de mostrar contraseña */
+#show-password {
+    background-color: #6a1b9a; /* Morado oscuro */
+}
+
+/* Estilo para los enlaces */
+.custom-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; /* Blanco */
+}
+
+.custom-link:hover {
+    color: #ffffff; /* Blanco */
+}

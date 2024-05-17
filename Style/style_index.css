@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("/Resource/fondo.png");
+    background-size: cover;
+    background-position: center;
+    color: #be0ece;
+    font-family: Baskerville, serif;
+}
+
+.contenedor {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%; 
+    max-width: 400px; 
+    height: auto; 
+    box-shadow: 0 0 10px rgb(255, 3, 213);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.contenedor h2 {
+    margin-bottom: 20px;
+}
+
+.contenedor h3 {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #c0159b; /* Cambiado a rosa */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3c0352; /* Cambiado a tono más oscuro de rosa */
+}
+
+#googlebtn,
+#facebooklogin {
+    width: calc(50% - 11px); /* Cambiado de 100% a 50% */
+    font-size: 16px;
+}
+
+#googlebtn {
+    background-color: #ff0000; /* Cambiado a rojo */
+    margin-bottom: 10px;
+}
+
+#googlebtn:hover {
+    background-color: #cc0000; /* Cambiado a tono más oscuro de rojo */
+}
+
+#facebooklogin {
+    background-color: #0000ff; /* Cambiado a azul */
+    margin-bottom: 10px;
+}
+
+#facebooklogin:hover {
+    background-color: #000099; /* Cambiado a tono más oscuro de azul */
+}
+
+.contenedor > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#googlebtn {
+    margin-right: auto; /* Mueve el botón de Google a la izquierda */
+}
+
+#facebooklogin {
+    margin-left: auto; /* Mueve el botón de Facebook a la derecha */
+}
